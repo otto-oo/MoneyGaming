@@ -12,10 +12,7 @@ public class test1 {
     public void setUp(){
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
-
-
     }
-
 
     @Test
     public void test1(){
